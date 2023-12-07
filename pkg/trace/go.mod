@@ -1,22 +1,22 @@
-module github.com/DataDog/datadog-agent/pkg/trace
+module github.com/Dylan-M/datadog-agent/pkg/trace
 
 go 1.20
 
 // NOTE: Prefer using simple `require` directives instead of using `replace` if possible.
-// See https://github.com/DataDog/datadog-agent/blob/main/docs/dev/gomodreplace.md
+// See https://github.com/Dylan-M/datadog-agent/blob/main/docs/dev/gomodreplace.md
 // for more details.
 
 // Internal deps fix version
 replace github.com/docker/distribution => github.com/docker/distribution v2.8.1+incompatible
 
 require (
-	github.com/DataDog/datadog-agent/pkg/obfuscate v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/proto v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/remoteconfig/state v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/util/cgroups v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/util/log v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/util/pointer v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/util/scrubber v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/obfuscate v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/proto v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/remoteconfig/state v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/util/cgroups v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/util/log v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/util/pointer v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/util/scrubber v0.50.0-rc.4
 	github.com/DataDog/datadog-go/v5 v5.1.1
 	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/attributes v0.8.1
 	github.com/DataDog/sketches-go v1.4.2
@@ -82,12 +82,12 @@ require (
 )
 
 replace (
-	github.com/DataDog/datadog-agent => ../../
-	github.com/DataDog/datadog-agent/pkg/obfuscate => ../obfuscate
-	github.com/DataDog/datadog-agent/pkg/proto => ../proto
-	github.com/DataDog/datadog-agent/pkg/remoteconfig/state => ../remoteconfig/state
-	github.com/DataDog/datadog-agent/pkg/util/cgroups => ../util/cgroups
-	github.com/DataDog/datadog-agent/pkg/util/log => ../util/log
-	github.com/DataDog/datadog-agent/pkg/util/pointer => ../util/pointer
-	github.com/DataDog/datadog-agent/pkg/util/scrubber => ../util/scrubber
+	github.com/Dylan-M/datadog-agent => ../../
+	github.com/Dylan-M/datadog-agent/pkg/obfuscate => ../obfuscate
+	github.com/Dylan-M/datadog-agent/pkg/proto => ../proto
+	github.com/Dylan-M/datadog-agent/pkg/remoteconfig/state => ../remoteconfig/state
+	github.com/Dylan-M/datadog-agent/pkg/util/cgroups => ../util/cgroups
+	github.com/Dylan-M/datadog-agent/pkg/util/log => ../util/log
+	github.com/Dylan-M/datadog-agent/pkg/util/pointer => ../util/pointer
+	github.com/Dylan-M/datadog-agent/pkg/util/scrubber => ../util/scrubber
 )

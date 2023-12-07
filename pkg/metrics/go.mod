@@ -1,39 +1,39 @@
-module github.com/DataDog/datadog-agent/pkg/metrics
+module github.com/Dylan-M/datadog-agent/pkg/metrics
 
 go 1.20
 
 replace (
-	github.com/DataDog/datadog-agent/comp/core/telemetry => ../../comp/core/telemetry/
-	github.com/DataDog/datadog-agent/pkg/aggregator/ckey => ../aggregator/ckey/
-	github.com/DataDog/datadog-agent/pkg/config/model => ../config/model/
-	github.com/DataDog/datadog-agent/pkg/tagset => ../tagset/
-	github.com/DataDog/datadog-agent/pkg/telemetry => ../telemetry/
-	github.com/DataDog/datadog-agent/pkg/util/buf => ../util/buf/
-	github.com/DataDog/datadog-agent/pkg/util/fxutil => ../util/fxutil/
-	github.com/DataDog/datadog-agent/pkg/util/log => ../util/log/
-	github.com/DataDog/datadog-agent/pkg/util/scrubber => ../util/scrubber/
-	github.com/DataDog/datadog-agent/pkg/util/sort => ../util/sort/
-	github.com/DataDog/datadog-agent/pkg/util/system/socket => ../util/system/socket
+	github.com/Dylan-M/datadog-agent/comp/core/telemetry => ../../comp/core/telemetry/
+	github.com/Dylan-M/datadog-agent/pkg/aggregator/ckey => ../aggregator/ckey/
+	github.com/Dylan-M/datadog-agent/pkg/config/model => ../config/model/
+	github.com/Dylan-M/datadog-agent/pkg/tagset => ../tagset/
+	github.com/Dylan-M/datadog-agent/pkg/telemetry => ../telemetry/
+	github.com/Dylan-M/datadog-agent/pkg/util/buf => ../util/buf/
+	github.com/Dylan-M/datadog-agent/pkg/util/fxutil => ../util/fxutil/
+	github.com/Dylan-M/datadog-agent/pkg/util/log => ../util/log/
+	github.com/Dylan-M/datadog-agent/pkg/util/scrubber => ../util/scrubber/
+	github.com/Dylan-M/datadog-agent/pkg/util/sort => ../util/sort/
+	github.com/Dylan-M/datadog-agent/pkg/util/system/socket => ../util/system/socket
 
 )
 
 require (
-	github.com/DataDog/datadog-agent/pkg/aggregator/ckey v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/config/model v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/tagset v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/telemetry v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/util/buf v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/util/log v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/aggregator/ckey v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/config/model v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/tagset v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/telemetry v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/util/buf v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/util/log v0.50.0-rc.4
 	github.com/DataDog/opentelemetry-mapping-go/pkg/quantile v0.8.0
 	github.com/stretchr/testify v1.8.4
 	go.uber.org/atomic v1.7.0
 )
 
 require (
-	github.com/DataDog/datadog-agent/comp/core/telemetry v0.50.0-rc.4 // indirect
-	github.com/DataDog/datadog-agent/pkg/util/fxutil v0.50.0-rc.4 // indirect
-	github.com/DataDog/datadog-agent/pkg/util/scrubber v0.50.0-rc.4 // indirect
-	github.com/DataDog/datadog-agent/pkg/util/sort v0.50.0-rc.4 // indirect
+	github.com/Dylan-M/datadog-agent/comp/core/telemetry v0.50.0-rc.4 // indirect
+	github.com/Dylan-M/datadog-agent/pkg/util/fxutil v0.50.0-rc.4 // indirect
+	github.com/Dylan-M/datadog-agent/pkg/util/scrubber v0.50.0-rc.4 // indirect
+	github.com/Dylan-M/datadog-agent/pkg/util/sort v0.50.0-rc.4 // indirect
 	github.com/DataDog/sketches-go v1.4.2 // indirect
 	github.com/DataDog/viper v1.12.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect

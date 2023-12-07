@@ -1,4 +1,4 @@
-module github.com/DataDog/datadog-agent/pkg/proto
+module github.com/Dylan-M/datadog-agent/pkg/proto
 
 go 1.20
 

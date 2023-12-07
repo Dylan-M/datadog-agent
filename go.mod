@@ -1,4 +1,4 @@
-module github.com/DataDog/datadog-agent
+module github.com/Dylan-M/datadog-agent
 
 go 1.20
 
@@ -12,7 +12,7 @@ retract (
 )
 
 // NOTE: Prefer using simple `require` directives instead of using `replace` if possible.
-// See https://github.com/DataDog/datadog-agent/blob/main/docs/dev/gomodreplace.md
+// See https://github.com/Dylan-M/datadog-agent/blob/main/docs/dev/gomodreplace.md
 // for more details.
 
 // Internal deps fix version
@@ -24,49 +24,49 @@ replace (
 )
 
 replace (
-	github.com/DataDog/datadog-agent/comp/core/flare/types => ./comp/core/flare/types
-	github.com/DataDog/datadog-agent/comp/core/secrets => ./comp/core/secrets
-	github.com/DataDog/datadog-agent/comp/core/telemetry => ./comp/core/telemetry/
-	github.com/DataDog/datadog-agent/pkg/aggregator/ckey => ./pkg/aggregator/ckey/
-	github.com/DataDog/datadog-agent/pkg/collector/check/defaults => ./pkg/collector/check/defaults
-	github.com/DataDog/datadog-agent/pkg/config/env => ./pkg/config/env
-	github.com/DataDog/datadog-agent/pkg/config/logs => ./pkg/config/logs
-	github.com/DataDog/datadog-agent/pkg/config/model => ./pkg/config/model/
-	github.com/DataDog/datadog-agent/pkg/errors => ./pkg/errors
-	github.com/DataDog/datadog-agent/pkg/gohai => ./pkg/gohai
-	github.com/DataDog/datadog-agent/pkg/metrics => ./pkg/metrics/
-	github.com/DataDog/datadog-agent/pkg/networkdevice/profile => ./pkg/networkdevice/profile
-	github.com/DataDog/datadog-agent/pkg/obfuscate => ./pkg/obfuscate
-	github.com/DataDog/datadog-agent/pkg/orchestrator/model => ./pkg/orchestrator/model
-	github.com/DataDog/datadog-agent/pkg/process/util/api => ./pkg/process/util/api
-	github.com/DataDog/datadog-agent/pkg/proto => ./pkg/proto
-	github.com/DataDog/datadog-agent/pkg/remoteconfig/state => ./pkg/remoteconfig/state
-	github.com/DataDog/datadog-agent/pkg/security/secl => ./pkg/security/secl
-	github.com/DataDog/datadog-agent/pkg/status/health => ./pkg/status/health
-	github.com/DataDog/datadog-agent/pkg/tagset => ./pkg/tagset/
-	github.com/DataDog/datadog-agent/pkg/telemetry => ./pkg/telemetry/
-	github.com/DataDog/datadog-agent/pkg/trace => ./pkg/trace
-	github.com/DataDog/datadog-agent/pkg/util/backoff => ./pkg/util/backoff
-	github.com/DataDog/datadog-agent/pkg/util/buf => ./pkg/util/buf/
-	github.com/DataDog/datadog-agent/pkg/util/cache => ./pkg/util/cache
-	github.com/DataDog/datadog-agent/pkg/util/cgroups => ./pkg/util/cgroups
-	github.com/DataDog/datadog-agent/pkg/util/common => ./pkg/util/common
-	github.com/DataDog/datadog-agent/pkg/util/compression => ./pkg/util/compression
-	github.com/DataDog/datadog-agent/pkg/util/executable => ./pkg/util/executable
-	github.com/DataDog/datadog-agent/pkg/util/filesystem => ./pkg/util/filesystem
-	github.com/DataDog/datadog-agent/pkg/util/fxutil => ./pkg/util/fxutil/
-	github.com/DataDog/datadog-agent/pkg/util/http => ./pkg/util/http/
-	github.com/DataDog/datadog-agent/pkg/util/json => ./pkg/util/json
-	github.com/DataDog/datadog-agent/pkg/util/log => ./pkg/util/log
-	github.com/DataDog/datadog-agent/pkg/util/optional => ./pkg/util/optional
-	github.com/DataDog/datadog-agent/pkg/util/pointer => ./pkg/util/pointer
-	github.com/DataDog/datadog-agent/pkg/util/scrubber => ./pkg/util/scrubber
-	github.com/DataDog/datadog-agent/pkg/util/sort => ./pkg/util/sort/
-	github.com/DataDog/datadog-agent/pkg/util/statstracker => ./pkg/util/statstracker
-	github.com/DataDog/datadog-agent/pkg/util/system/socket => ./pkg/util/system/socket/
-	github.com/DataDog/datadog-agent/pkg/util/testutil => ./pkg/util/testutil
-	github.com/DataDog/datadog-agent/pkg/util/winutil => ./pkg/util/winutil/
-	github.com/DataDog/datadog-agent/pkg/version => ./pkg/version
+	github.com/Dylan-M/datadog-agent/comp/core/flare/types => ./comp/core/flare/types
+	github.com/Dylan-M/datadog-agent/comp/core/secrets => ./comp/core/secrets
+	github.com/Dylan-M/datadog-agent/comp/core/telemetry => ./comp/core/telemetry/
+	github.com/Dylan-M/datadog-agent/pkg/aggregator/ckey => ./pkg/aggregator/ckey/
+	github.com/Dylan-M/datadog-agent/pkg/collector/check/defaults => ./pkg/collector/check/defaults
+	github.com/Dylan-M/datadog-agent/pkg/config/env => ./pkg/config/env
+	github.com/Dylan-M/datadog-agent/pkg/config/logs => ./pkg/config/logs
+	github.com/Dylan-M/datadog-agent/pkg/config/model => ./pkg/config/model/
+	github.com/Dylan-M/datadog-agent/pkg/errors => ./pkg/errors
+	github.com/Dylan-M/datadog-agent/pkg/gohai => ./pkg/gohai
+	github.com/Dylan-M/datadog-agent/pkg/metrics => ./pkg/metrics/
+	github.com/Dylan-M/datadog-agent/pkg/networkdevice/profile => ./pkg/networkdevice/profile
+	github.com/Dylan-M/datadog-agent/pkg/obfuscate => ./pkg/obfuscate
+	github.com/Dylan-M/datadog-agent/pkg/orchestrator/model => ./pkg/orchestrator/model
+	github.com/Dylan-M/datadog-agent/pkg/process/util/api => ./pkg/process/util/api
+	github.com/Dylan-M/datadog-agent/pkg/proto => ./pkg/proto
+	github.com/Dylan-M/datadog-agent/pkg/remoteconfig/state => ./pkg/remoteconfig/state
+	github.com/Dylan-M/datadog-agent/pkg/security/secl => ./pkg/security/secl
+	github.com/Dylan-M/datadog-agent/pkg/status/health => ./pkg/status/health
+	github.com/Dylan-M/datadog-agent/pkg/tagset => ./pkg/tagset/
+	github.com/Dylan-M/datadog-agent/pkg/telemetry => ./pkg/telemetry/
+	github.com/Dylan-M/datadog-agent/pkg/trace => ./pkg/trace
+	github.com/Dylan-M/datadog-agent/pkg/util/backoff => ./pkg/util/backoff
+	github.com/Dylan-M/datadog-agent/pkg/util/buf => ./pkg/util/buf/
+	github.com/Dylan-M/datadog-agent/pkg/util/cache => ./pkg/util/cache
+	github.com/Dylan-M/datadog-agent/pkg/util/cgroups => ./pkg/util/cgroups
+	github.com/Dylan-M/datadog-agent/pkg/util/common => ./pkg/util/common
+	github.com/Dylan-M/datadog-agent/pkg/util/compression => ./pkg/util/compression
+	github.com/Dylan-M/datadog-agent/pkg/util/executable => ./pkg/util/executable
+	github.com/Dylan-M/datadog-agent/pkg/util/filesystem => ./pkg/util/filesystem
+	github.com/Dylan-M/datadog-agent/pkg/util/fxutil => ./pkg/util/fxutil/
+	github.com/Dylan-M/datadog-agent/pkg/util/http => ./pkg/util/http/
+	github.com/Dylan-M/datadog-agent/pkg/util/json => ./pkg/util/json
+	github.com/Dylan-M/datadog-agent/pkg/util/log => ./pkg/util/log
+	github.com/Dylan-M/datadog-agent/pkg/util/optional => ./pkg/util/optional
+	github.com/Dylan-M/datadog-agent/pkg/util/pointer => ./pkg/util/pointer
+	github.com/Dylan-M/datadog-agent/pkg/util/scrubber => ./pkg/util/scrubber
+	github.com/Dylan-M/datadog-agent/pkg/util/sort => ./pkg/util/sort/
+	github.com/Dylan-M/datadog-agent/pkg/util/statstracker => ./pkg/util/statstracker
+	github.com/Dylan-M/datadog-agent/pkg/util/system/socket => ./pkg/util/system/socket/
+	github.com/Dylan-M/datadog-agent/pkg/util/testutil => ./pkg/util/testutil
+	github.com/Dylan-M/datadog-agent/pkg/util/winutil => ./pkg/util/winutil/
+	github.com/Dylan-M/datadog-agent/pkg/version => ./pkg/version
 )
 
 require (
@@ -75,15 +75,15 @@ require (
 	code.cloudfoundry.org/lager v2.0.0+incompatible
 	github.com/CycloneDX/cyclonedx-go v0.7.2
 	github.com/DataDog/appsec-internal-go v1.2.0
-	github.com/DataDog/datadog-agent/pkg/gohai v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/obfuscate v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/remoteconfig/state v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/security/secl v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/trace v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/util/cgroups v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/util/log v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/util/pointer v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/util/scrubber v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/gohai v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/obfuscate v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/remoteconfig/state v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/security/secl v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/trace v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/util/cgroups v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/util/log v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/util/pointer v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/util/scrubber v0.50.0-rc.4
 	github.com/DataDog/datadog-go/v5 v5.3.1-0.20231115110321-54ec306d83b2
 	// do not update datadog-operator to 1.2.1 because the indirect dependency github.com/DataDog/datadog-api-client-go/v2 v2.15.0 is trigger a huge Go heap memory increase.
 	github.com/DataDog/datadog-operator v1.1.0
@@ -586,38 +586,38 @@ require github.com/lorenzosaino/go-sysctl v0.3.1
 require (
 	github.com/DATA-DOG/go-sqlmock v1.5.0
 	github.com/DataDog/agent-payload/v5 v5.0.100
-	github.com/DataDog/datadog-agent/comp/core/flare/types v0.0.0-00010101000000-000000000000
-	github.com/DataDog/datadog-agent/comp/core/secrets v0.0.0-00010101000000-000000000000
-	github.com/DataDog/datadog-agent/comp/core/telemetry v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/aggregator/ckey v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/collector/check/defaults v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/config/env v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/config/logs v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/config/model v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/errors v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/metrics v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/networkdevice/profile v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/orchestrator/model v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/process/util/api v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/proto v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/status/health v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/tagset v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/telemetry v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/util/backoff v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/util/cache v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/util/common v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/util/compression v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/util/executable v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/util/filesystem v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/util/fxutil v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/util/http v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/util/json v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/util/optional v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/util/sort v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/util/statstracker v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/util/testutil v0.50.0-rc.4
-	github.com/DataDog/datadog-agent/pkg/util/winutil v0.0.0-00010101000000-000000000000
-	github.com/DataDog/datadog-agent/pkg/version v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/comp/core/flare/types v0.0.0-00010101000000-000000000000
+	github.com/Dylan-M/datadog-agent/comp/core/secrets v0.0.0-00010101000000-000000000000
+	github.com/Dylan-M/datadog-agent/comp/core/telemetry v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/aggregator/ckey v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/collector/check/defaults v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/config/env v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/config/logs v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/config/model v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/errors v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/metrics v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/networkdevice/profile v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/orchestrator/model v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/process/util/api v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/proto v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/status/health v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/tagset v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/telemetry v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/util/backoff v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/util/cache v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/util/common v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/util/compression v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/util/executable v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/util/filesystem v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/util/fxutil v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/util/http v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/util/json v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/util/optional v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/util/sort v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/util/statstracker v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/util/testutil v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/util/winutil v0.0.0-00010101000000-000000000000
+	github.com/Dylan-M/datadog-agent/pkg/version v0.50.0-rc.4
 	github.com/DataDog/go-libddwaf/v2 v2.2.0
 	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/logs v0.8.0
 	github.com/aquasecurity/trivy v0.0.0-00010101000000-000000000000
@@ -643,8 +643,8 @@ require (
 require (
 	github.com/AdaLogics/go-fuzz-headers v0.0.0-20230811130428-ced1acdcaa24 // indirect
 	github.com/AdamKorcz/go-118-fuzz-build v0.0.0-20230306123547-8075edf89bb0 // indirect
-	github.com/DataDog/datadog-agent/pkg/util/buf v0.50.0-rc.4 // indirect
-	github.com/DataDog/datadog-agent/pkg/util/system/socket v0.50.0-rc.4 // indirect
+	github.com/Dylan-M/datadog-agent/pkg/util/buf v0.50.0-rc.4 // indirect
+	github.com/Dylan-M/datadog-agent/pkg/util/system/socket v0.50.0-rc.4 // indirect
 	github.com/DataDog/datadog-api-client-go/v2 v2.13.0 // indirect
 	github.com/DataDog/go-sqllexer v0.0.8 // indirect
 	github.com/antlr/antlr4/runtime/Go/antlr v1.4.10 // indirect

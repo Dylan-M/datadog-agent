@@ -1,4 +1,4 @@
-module github.com/DataDog/datadog-agent/pkg/obfuscate
+module github.com/Dylan-M/datadog-agent/pkg/obfuscate
 
 go 1.20
 

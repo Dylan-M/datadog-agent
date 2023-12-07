@@ -1,4 +1,4 @@
-module github.com/DataDog/datadog-agent/pkg/errors
+module github.com/Dylan-M/datadog-agent/pkg/errors
 
 go 1.20
 

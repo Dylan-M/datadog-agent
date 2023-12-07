@@ -1,4 +1,4 @@
-module github.com/DataDog/datadog-agent/pkg/version
+module github.com/Dylan-M/datadog-agent/pkg/version
 
 go 1.20
 
