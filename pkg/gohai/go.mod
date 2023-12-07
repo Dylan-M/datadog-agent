@@ -5,7 +5,7 @@ module github.com/Dylan-M/datadog-agent/pkg/gohai
 go 1.20
 
 require (
-	github.com/DataDog/datadog-agent/pkg/util/log v0.50.0-rc.4
+	github.com/Dylan-M/datadog-agent/pkg/util/log v0.50.0-rc.4
 	github.com/cihub/seelog v0.0.0-20170130134532-f561c5e57575
 	github.com/moby/sys/mountinfo v0.7.1
 	github.com/shirou/gopsutil/v3 v3.23.11
@@ -14,7 +14,7 @@ require (
 )
 
 require (
-	github.com/DataDog/datadog-agent/pkg/util/scrubber v0.50.0-rc.4 // indirect
+	github.com/Dylan-M/datadog-agent/pkg/util/scrubber v0.50.0-rc.4 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
 	github.com/kr/pretty v0.3.1 // indirect
@@ -32,6 +32,6 @@ require (
 )
 
 replace (
-	github.com/DataDog/datadog-agent/pkg/util/log => ../util/log
-	github.com/DataDog/datadog-agent/pkg/util/scrubber => ../util/scrubber
+	github.com/Dylan-M/datadog-agent/pkg/util/log => ../util/log
+	github.com/Dylan-M/datadog-agent/pkg/util/scrubber => ../util/scrubber
 )
